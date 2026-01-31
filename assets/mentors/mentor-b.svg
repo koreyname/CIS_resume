@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="0.6" stop-color="#7c3aed"/>
+      <stop offset="1" stop-color="#a3e635"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="36" fill="rgba(255,255,255,0.06)"/>
+  <circle cx="80" cy="68" r="34" fill="url(#g)" opacity="0.9"/>
+  <path d="M28 142c10-26 30-40 52-40s42 14 52 40" fill="url(#g)" opacity="0.35"/>
+  <text x="80" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial" font-size="14" fill="rgba(255,255,255,0.7)">导师B</text>
+</svg>
+
