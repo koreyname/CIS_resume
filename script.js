@@ -437,6 +437,18 @@ function initDisabledLinks() {
   }
 }
 
+function initCopyrightBadge() {
+  const text = "© korey 2026-1-29";
+  if ($(".copyright-badge")) return;
+
+  const el = document.createElement("div");
+  el.className = "copyright-badge";
+  el.setAttribute("role", "contentinfo");
+  el.setAttribute("aria-label", "版权信息");
+  el.textContent = text;
+  document.body.appendChild(el);
+}
+
 initYear();
 initHeaderElevate();
 initHeaderOffset();
@@ -447,6 +459,7 @@ initReveal();
 initGalleryStaticLayout();
 initLightbox();
 initDisabledLinks();
+initCopyrightBadge();
 initScrollRestoration();
 initScrollProgress();
 initSpotlight();

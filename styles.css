@@ -1097,6 +1097,37 @@ html[data-theme="light"] .shot-cap {
   color: var(--muted2);
   font-size: 13px;
 }
+.footer-backtop {
+  margin-left: auto;
+}
+
+.copyright-badge {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  z-index: 1200;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--panel-bg);
+  background: color-mix(in oklab, var(--panel-bg) 72%, transparent);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 720;
+  letter-spacing: 0.2px;
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  pointer-events: none;
+}
+@media (max-width: 520px) {
+  .copyright-badge {
+    right: 10px;
+    bottom: 10px;
+    padding: 7px 10px;
+    font-size: 11px;
+  }
+}
 
 .lightbox {
   position: fixed;
